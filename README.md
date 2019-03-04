@@ -39,8 +39,8 @@ npm install --save angular-calendar date-fns
 Next include the CSS file in the global (not component scoped) styles of your app:
 
 ```
-/* angular-cli file: src/styles.css */
-@import "../node_modules/angular-calendar/css/angular-calendar.css";
+/* file: src/angular.json */
+"node_modules/angular-calendar/css/angular-calendar.css"
 ```
 
 Finally import the calendar module into your apps module:
